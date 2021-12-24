@@ -10,7 +10,7 @@ class Rectangulo{
         return this.largo * 2 + this.alto * 2
     }
     imprimir(){
-        return "area" + this.area() + " - " + this.perimetro()
+        console.log("area:" + this.area() + " - "+"perimetro:"+ this.perimetro())
     }
 }
 
@@ -25,7 +25,7 @@ class Circulo{
         return this.radio * 2 * Math.PI
     }
     imprimir(){
-        return "area" + this.area() + " - " + this.perimetro()
+        console.log( "area:" + this.area() + " - " + "perimetro:" + this.perimetro())
     }
 }
 
